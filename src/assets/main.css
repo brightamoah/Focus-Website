@@ -2,9 +2,23 @@
 
 #app {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: none !important;
+  padding: none !important;
   font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(236, 242, 198, 0.6);
+  max-width: 1919px; 
+}
+
+.el-card__body {
+  display: flex;
+  align-items: center;
+ padding: none !important;
+  
 }
 
 a,
@@ -30,6 +44,6 @@ a,
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: none !important;
   }
 }

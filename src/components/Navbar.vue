@@ -16,7 +16,7 @@
 
         <el-menu-item index="2">Courses</el-menu-item>
 
-        <el-sub-menu index="3">
+        <el-sub-menu class="submenu" index="3">
           <template #title>Questions</template>
           <el-menu-item index="3-1">item one</el-menu-item>
           <el-menu-item index="3-2">item two</el-menu-item>
@@ -24,7 +24,7 @@
         </el-sub-menu>
 
         <el-sub-menu index="4">
-          <template #title>Questions</template>
+          <template #title>Products</template>
           <el-menu-item index="4-1">item one</el-menu-item>
           <el-menu-item index="4-2">item two</el-menu-item>
           <el-menu-item index="4-3">item three</el-menu-item>
@@ -69,12 +69,7 @@ function handleSelect(val, event) {
 }
 </script>
 
-<style>
-body {
-  padding: 0;
-  margin: 0;
-  background-color: rgba(236, 242, 198, 0.6);
-}
+<style scoped>
 
 .navbar {
   display: flex;
@@ -82,6 +77,7 @@ body {
   align-items: center;
   width: 1629px;
   height: 118.05px;
+  margin-left: 132px;
 }
 
 .el-menu--horizontal {
@@ -97,20 +93,24 @@ body {
 }
 
 .el-menu--horizontal > .el-menu-item {
-    width: 102.33px;
-    height: 24px;
-    font-size: 20px;
-    font-weight: 500px;
-    line-height: 24.2px;
+  width: 102.33px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24.2px;
 
 }
 
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title{
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24.2px;
+}
 
-
-.el-menu--horizontal>.el-sub-menu .el-sub-menu__title {
-    font-size: 20px;
-    font-weight: 500px;
-    line-height: 24.2px;
+.el-sub-menu__title{
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24.2px;
 }
 
 .login {

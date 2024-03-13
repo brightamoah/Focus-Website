@@ -75,6 +75,8 @@ export default {
 
 <style scoped>
 
+
+
 .mid {
     display: flex;
     flex-direction: row;
@@ -86,7 +88,7 @@ h1 {
     width: 659px;
     height: 220px;
     margin-top: 110.95px;
-    left: 161px;
+    margin-left: 161px;
     font-weight: 700;
     font-size: 100px;
     line-height: 110px;
@@ -96,7 +98,7 @@ h1 {
 h2 { 
     width: 878px;
     height:42px;
-    left: 161px;
+    margin-left: 161px;
     font-weight: 600;
     font-size: 35px;
     line-height: 42.36px;
@@ -107,7 +109,7 @@ p{
     width: 807px;
     height: 210px;
     margin-top: 69px;
-    left: 161px;
+    margin-left: 161px;
     font-weight: 500;
     font-size: 25px;
     line-height: 30.26px;
@@ -124,6 +126,7 @@ p{
 .explore{
     display: flex;
     align-items: center;
+    margin-left: 161px;
     
 }
 
@@ -145,6 +148,7 @@ p{
     margin-right: 425px;
     width: 1073px;
     height: 94px;
+    margin-bottom: 47px;
 
 }
 
@@ -159,8 +163,7 @@ p{
 .el-card__body {
     display: flex;
     align-items: center;
-    padding-right: none;
-    padding-top: none ;
+   padding: none !important;
     
 }
 .card1 {
@@ -168,7 +171,7 @@ p{
     height: 94px;
     background-color: transparent;
     gap: 30px;
-    
+    margin-top: none !important;
 
 }
     
