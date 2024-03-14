@@ -8,7 +8,9 @@
     <LearnMoreSection/>
   </header>
 
-  
+  <footer>
+    <FooterComponent/>
+  </footer>
 
 </template>
 
@@ -19,6 +21,7 @@ import HomePage from '@/components/HomePage.vue'
 import UserStories from '@/components/UserStories.vue'
 import ReasonSection from '@/components/ReasonSection.vue'
 import LearnMoreSection from '@/components/LearnMore.vue'
+import FooterComponent from '@/components/Footer.vue'
 
 
 

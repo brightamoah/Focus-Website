@@ -5,6 +5,7 @@
   margin: none !important;
   padding: none !important;
   font-weight: normal;
+ 
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   margin: 0;
   background-color: rgba(236, 242, 198, 0.6);
   max-width: 1919px; 
+  
 }
 
 .el-card__body {
