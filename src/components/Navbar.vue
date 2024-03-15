@@ -14,7 +14,7 @@
       >
         <el-menu-item index="1">Home</el-menu-item>
 
-        <el-menu-item index="2">Courses</el-menu-item>
+        <el-menu-item index="2"><a href="/views/Courses.vue"></a>Courses</el-menu-item>
 
         <el-sub-menu class="submenu" index="3">
           <template #title>Questions</template>
@@ -69,7 +69,7 @@ function handleSelect(val, event) {
 }
 </script>
 
-<style scoped>
+<style>
 
 .navbar {
   display: flex;
@@ -98,7 +98,6 @@ function handleSelect(val, event) {
   font-size: 20px;
   font-weight: 500px;
   line-height: 24.2px;
-
 }
 
 .el-menu--horizontal>.el-sub-menu .el-sub-menu__title{
@@ -107,11 +106,6 @@ function handleSelect(val, event) {
   line-height: 24.2px;
 }
 
-.el-sub-menu__title{
-  font-size: 20px;
-  font-weight: 500px;
-  line-height: 24.2px;
-}
 
 .login {
   display: flex;
@@ -128,8 +122,12 @@ function handleSelect(val, event) {
   color: black;
 }
 
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+  background-color: black;
+}
+
 .el-menu--horizontal >.el-menu-item.is-active {
   border-bottom: 2px solid rgba(168, 192, 39, 1);
-  color: rgba(41, 39, 37, 0.9) !important;
+  color: rgba(41, 39, 37, 0.9) ;
 }
 </style>

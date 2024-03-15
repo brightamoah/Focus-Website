@@ -1,16 +1,19 @@
 
 <template>
   <header>
+   
     <NavbarComponent/>
     <HomePage/>
     <UserStories/>
     <ReasonSection/>
     <LearnMoreSection/>
+    <FooterComponent/>
+   
   </header>
 
-  <footer>
-    <FooterComponent/>
-  </footer>
+  
+    
+  
 
 </template>
 
@@ -29,6 +32,8 @@ import FooterComponent from '@/components/Footer.vue'
 
 
 <style >
+
+
 
 
 
