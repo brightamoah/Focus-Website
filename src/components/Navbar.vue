@@ -78,6 +78,7 @@ function handleSelect(val, event) {
   width: 1629px;
   height: 118.05px;
   margin-left: 132px;
+  background-color: transparent;
 }
 
 .el-menu--horizontal {

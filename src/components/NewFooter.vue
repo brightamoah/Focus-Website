@@ -123,9 +123,6 @@ export default {
 
 }
 
-.el-menu--vertical:not(.el-menu--collapse):not(.el-menu--popup-container) .el-menu-item{
-    
-}
 
 .el-menu-item-group {
     margin-left: 90.09px

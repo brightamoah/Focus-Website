@@ -31,6 +31,50 @@
             <img class="course-cards" src="/images/data.png" />
         </el-card>
 
+        <!--This is the card you asked us to create-->
+        <div class="new-box">
+            <div class="box-card1">
+                <div>
+                    <img class="web" src="/icons/web.png" alt="web">
+                    <p id="title-1">Introduction To Website Development </p>
+                </div>
+
+                <div class="pic-sec">
+                    <img class="pic1" src="/icons/Draw-sow.png" alt="">
+                    <div>
+                        <p class="p-txt">
+                            Instructor
+                        </p>
+                        <p class="name1">
+                            Draw Sow
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="box-card2">
+                <p class="bc2-txt">
+                    Lorem ipsum dolor sit amet consectetur. Massa ipsum quam amet amet mi odio temp
+                    vestibulum. Suspendisse tincidunt feugiat aliquam varius. Varius netus porttitor nulla id. Hac nunc
+                    sed sed .
+                </p>
+                <p class="bc2-txt2">course rating</p>
+
+
+                <div class="down">
+                    <p class="bc2-txt3">5.2</p>
+
+                    <img class="star" src="/icons/Star.png">
+
+                    <p class="bc2-txt4">(986,857)</p>
+                </div>
+            </div>
+
+        </div>
+
+
 
         <div class="students-say">
 
@@ -243,5 +287,131 @@ h3{
     margin-top: 10px;
     margin-bottom: 54px;
     margin-left: 435px;
+}
+/* Style for the card created*/
+
+.new-box {
+    width: 489px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 165px;
+    background-color: rgba(228, 235, 188, 1);
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.box-card1 {
+    width: 100%;
+    height: 352px;
+    background-color: rgba(76, 86, 18, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.box-card2 {
+    width: 100%;
+    height: 288px;
+    background-color: rgba(228, 235, 188, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+.web {
+    margin-left: 186px;
+    margin-top: 29px;
+}
+
+#title-1 {
+    width: 376px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 54px;
+}
+
+.pic-sec {
+    display: flex;
+}
+
+.pic1 {
+    width: 88px;
+    height: 88px;
+    margin-left: 53px;
+    margin-top: 29px;
+    margin-right: 17px;
+}
+
+.p-txt {
+    width: 92px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 26px;
+}
+
+.name1 {
+    width: 155px;
+    height: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.bc2-txt {
+    width: 416px;
+    height: 180px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.bc2-txt2 {
+    height: 24px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    margin-left: 45px;
+    margin-top: 22px;
+}
+
+.down {
+    display: flex;
+}
+
+.bc2-txt3 {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 45px;
+    margin-top: 2px;
+}
+
+.star {
+    margin-right: 0px;
+    width: 100px;
+    height: 19px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.bc2-txt4 {
+    width: 93px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 6px;
 }
 </style>

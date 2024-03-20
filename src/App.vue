@@ -12,6 +12,7 @@
     
    <NewCoursesView/>
    <WebdevView/>
+   <LoginView/>
   </header>
 
   
@@ -33,6 +34,7 @@ import CoursesView from '@/views/Courses.vue'
 import NewFooterComponent from '@/components/NewFooter.vue'
 import NewCoursesView from '@/views/CoursesNew.vue'
 import WebdevView from '@/views/Webdev.vue'
+import LoginView from '@/views/Login.vue'
 
 
 
