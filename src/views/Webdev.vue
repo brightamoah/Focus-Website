@@ -499,7 +499,8 @@ h2 {
 }
 
 
-el-checkbox :deep(.el-checkbox__label) {
+
+.el-checkbox :deep(.el-checkbox__label) {
     font-size: 57px;
 }
 </style>
