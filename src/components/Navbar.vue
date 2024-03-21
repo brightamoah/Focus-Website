@@ -14,7 +14,7 @@
       >
         <el-menu-item index="1">Home</el-menu-item>
 
-        <el-menu-item index="2"><RouterLink href="/views/Courses.vue"></RouterLink>Courses</el-menu-item>
+        <el-menu-item index="2">Courses</el-menu-item>
 
         <el-sub-menu class="submenu" index="3">
           <template #title>Questions</template>
@@ -69,7 +69,7 @@ function handleSelect(val, event) {
 }
 </script>
 
-<style>
+<style scoped>
 
 .navbar {
   display: flex;
