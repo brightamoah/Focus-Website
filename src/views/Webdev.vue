@@ -159,25 +159,29 @@
                     <div class="check">
 
                         <section class="sections">
-                            1
+                            <el-checkbox id="box-check" v-model="checked1"
+                            label="Lorem ipsum dolor sit amet, consect" />
                         </section>
 
                         <section class="sections">
-                            <el-checkbox id="box-check" v-model="checked1"
+                            <el-checkbox id="box-check" v-model="checked2"
                                 label="Lorem ipsum dolor sit amet, consect" />
 
                         </section>
 
                         <section class="sections">
-                            4
+                            <el-checkbox id="box-check" v-model="checked3"
+                            label="Lorem ipsum dolor sit amet, consect" />
                         </section>
 
                         <section class="sections">
-                            5
+                            <el-checkbox id="box-check" v-model="checked4"
+                            label="Lorem ipsum dolor sit amet, consect" />
                         </section>
 
                         <section class="sections">
-                            6
+                            <el-checkbox id="box-check" v-model="checked5"
+                                label="Lorem ipsum dolor sit amet, consect" />
                         </section>
 
                     </div>
@@ -473,7 +477,7 @@ h2 {
 
 .el-checkbox {
     margin-top: 70px;
-    margin-left: 70px;
+    margin-left: 30px;
 
 }
 
@@ -501,6 +505,28 @@ h2 {
 
 
 .el-checkbox :deep(.el-checkbox__label) {
-    font-size: 57px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.el-checkbox :deep(.el-checkbox__inner) {
+    width: 31px;
+    height: 29.1px;
+    margin-bottom: 25px;
+}
+
+.el-checkbox :deep(.el-checkbox__input.is-checked .el-checkbox__inner) {
+   background-color: transparent;
+    border-color: rgba(134, 154, 31, 1);
+    border: 2px solid rgba(134, 154, 31, 1);
+}
+
+.el-checkbox :deep(.el-checkbox__input.is-checked .el-checkbox__inner::after ){
+    margin-left: 8px;
+    margin-top: 8px;
+    border-color: rgba(134, 154, 31, 1);
+    height: 10px;
+    
 }
 </style>
