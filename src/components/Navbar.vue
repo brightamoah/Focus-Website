@@ -123,8 +123,12 @@ function handleSelect(val, event) {
   color: black;
 }
 
+.el-menu :deep(.el-menu-item.is-active ){
+  color: black;
+}
 .el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
-  background-color: black;
+  background-color: rgba(76, 86, 18, 1);
+  color: white;
 }
 
 .el-menu--horizontal >.el-menu-item.is-active {
