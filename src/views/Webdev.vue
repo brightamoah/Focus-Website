@@ -13,482 +13,44 @@
             alt="playbutton"
           />
           <div class="btns-group">
-            <el-button type="success" class="web-btn"> 80 Lessons </el-button>
+            <el-button
+              class="btns"
+              type="success"
+              style="margin-left: 0px; padding: 0px"
+              ><img src="/icons/lessos-vec.png" />
+              <p class="btn-txt">80 Lessons</p></el-button
+            >
 
-            <el-button type="success" class="web-btn"> 12 Projects </el-button>
+            <el-button
+              class="btns"
+              type="success"
+              style="margin-left: 0px; padding: 0px"
+              ><img src="/icons/projects-vec.png" />
+              <p class="btn-txt">12 Projects</p></el-button
+            >
 
-            <el-button type="success" class="web-btn"> 10 Questions </el-button>
+            <el-button
+              class="btns"
+              type="success"
+              style="margin-left: 0px; padding: 0px"
+              ><img src="/icons/ques-vec.png" />
+              <p class="btn-txt">10 Questions</p></el-button
+            >
           </div>
         </div>
+      <div class="left-txt">
+        <div class="ft-box">
 
-        <P id="first-txt"
+          <P id="first-txt"
           >Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
           tempor incidunt ut labore et dolore magna aliqua. Uenim ad minim
           veniam, quis nostrum exercitationem ullam corporis suscipit
-          laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+          iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur.
         </P>
-      </div>
-
-      <div class="sec-2">
-        <div class="menu-container">
-          <div class="title">
-            <h3 id="first-h3">Content</h3>
-
-            <div class="play-txt">
-              <img
-                class="play-btn"
-                src="/icons/play-button-inside-a-circle 2.png"
-                alt="play-btn"
-              />
-              <h3 id="second-h3">13hr total length</h3>
-            </div>
-          </div>
-
-          <el-menu
-            :default-active="1"
-            class="el-menu-demo"
-            mode="vertical"
-            @select="handleSelect"
-            :ellipsis="false"
-          >
-            <el-sub-menu class="submenu" index="1">
-              <template #title>1. Introductions</template>
-              <el-menu-item index="1-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="1-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="1-1" value="1-1" />
-                </div>
-              </el-menu-item>
-
-              <el-menu-item index="1-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="1-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="1-2" value="1-2" />
-                </div>
-              </el-menu-item>
-
-              <el-menu-item index="1-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="1-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="1-3" value="1-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="2">
-              <template #title>2. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="2-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="2-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="2-1" value="2-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="2-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="2-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="2-2" value="2-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="2-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="2-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="2-3" value="2-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="3">
-              <template #title>3. Lorem ipsum dolor sit amet </template>
-              <el-menu-item index="3-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="3-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="3-1" value="3-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="3-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="3-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="3-2" value="3-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="3-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="3-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="3-3" value="3-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="4">
-              <template #title>4. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="4-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="4-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="4-1" value="4-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="4-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="4-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="4-2" value="4-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="4-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="4-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="4-3" value="4-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="5">
-              <template #title>5. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="5-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="5-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="5-1" value="5-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="5-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="5-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="5-2" value="5-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="5-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="5-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="5-3" value="5-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="6">
-              <template #title>6. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="6-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="6-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="6-1" value="6-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="6-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="6-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="6-2" value="6-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="6-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="6-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="6-3" value="6-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="7">
-              <template #title>7. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="7-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="7-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="7-1" value="7-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="7-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="7-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="7-2" value="7-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="7-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="7-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="7-3" value="7-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="8">
-              <template #title>8. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="8-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="8-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="8-1" value="8-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="8-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="8-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="8-2" value="8-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="8-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="8-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="8-3" value="8-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="9">
-              <template #title>9. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="9-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="9-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="9-1" value="9-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="9-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="9-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="9-2" value="9-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="9-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="9-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="9-3" value="9-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="10">
-              <template #title>10. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="10-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="10-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="10-1" value="10-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="10-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="10-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="10-2" value="10-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="10-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="10-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="10-3" value="10-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-
-            <el-sub-menu class="submenu" index="11">
-              <template #title>11. Lorem ipsum dolor sit amet</template>
-              <el-menu-item index="11-1">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="11-1" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="11-1" value="11-1" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="11-2">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="11-2" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="11-2" value="11-2" />
-                </div>
-              </el-menu-item>
-              <el-menu-item index="11-3">
-                <div class="sub-items">
-                  <img class="item" src="/icons/items.png" />
-
-                  <label for="11-3" class="sub-txt"
-                    >Lorem ipsum dolor sit amet, consect</label
-                  >
-
-                  <input type="radio" class="one-btn" id="11-3" value="11-3" />
-                </div>
-              </el-menu-item>
-            </el-sub-menu>
-
-            <div class="border-line"></div>
-          </el-menu>
+         
         </div>
-
-      
-     
-      
 
         <div class="box">
           <div class="check">
@@ -537,11 +99,480 @@
             <el-button class="p-now" type="success">
               <p id="pn-text">Purchase Now</p>
             </el-button>
-
           </div>
-
         </div>
       </div>
+      </div>
+
+     
+        <div class="menu-container">
+          <div class="title">
+            <h3 id="first-h3">Content</h3>
+
+            <div class="play-txt">
+              <img
+                class="play-btn"
+                src="/icons/play-button-inside-a-circle 2.png"
+                alt="play-btn"
+              />
+              <h3 id="second-h3">13hr total length</h3>
+            </div>
+          </div>
+
+          <el-menu
+            :default-active="1"
+            class="el-menu-demo"
+            mode="vertical"
+            @select="handleSelect"
+            :ellipsis="false"
+          >
+            <el-sub-menu class="submenu" index="1">
+              <template #title>1. Introductions</template>
+              <el-menu-item index="1-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="1-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" class="one-btn" id="1-1" value="1-1" />
+                </div>
+              </el-menu-item>
+
+              <el-menu-item index="1-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="1-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <button
+                    :class="{ active: isActive }"
+                    @click="toggleActive"
+                    id="1-2"
+                  ></button>
+                </div>
+              </el-menu-item>
+
+              <el-menu-item index="1-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="1-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <button
+                    :class="{ active: isActive }"
+                    @click="toggleActive"
+                    id="1-3"
+                  ></button>
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="2">
+              <template #title>2. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="2-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="2-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" 
+                  name="2" class="one-btn" id="2-1" value="2-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="2-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="2-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio"   name="2"  class="one-btn" id="2-2" value="2-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="2-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="2-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="2" class="one-btn" id="2-3" value="2-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="3">
+              <template #title>3. Lorem ipsum dolor sit amet </template>
+              <el-menu-item index="3-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="3-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio"   name="3" class="one-btn" id="3-1" value="3-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="3-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="3-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="3"  class="one-btn" id="3-2" value="3-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="3-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="3-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio"  name="3" class="one-btn" id="3-3" value="3-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="4">
+              <template #title>4. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="4-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="4-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio"   name="4" class="one-btn" id="4-1" value="4-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="4-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="4-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="4" class="one-btn" id="4-2" value="4-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="4-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="4-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="4" class="one-btn" id="4-3" value="4-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="5">
+              <template #title>5. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="5-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="5-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="5" class="one-btn" id="5-1" value="5-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="5-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="5-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="5" class="one-btn" id="5-2" value="5-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="5-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="5-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="5" class="one-btn" id="5-3" value="5-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="6">
+              <template #title>6. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="6-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="6-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="6" class="one-btn" id="6-1" value="6-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="6-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="6-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="6" class="one-btn" id="6-2" value="6-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="6-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="6-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="6" class="one-btn" id="6-3" value="6-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="7">
+              <template #title>7. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="7-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="7-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="7" class="one-btn" id="7-1" value="7-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="7-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="7-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="7" class="one-btn" id="7-2" value="7-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="7-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="7-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="7" class="one-btn" id="7-3" value="7-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="8">
+              <template #title>8. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="8-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="8-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="8" class="one-btn" id="8-1" value="8-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="8-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="8-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="8" class="one-btn" id="8-2" value="8-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="8-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="8-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="8" class="one-btn" id="8-3" value="8-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="9">
+              <template #title>9. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="9-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="9-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="9" class="one-btn" id="9-1" value="9-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="9-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="9-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="9" class="one-btn" id="9-2" value="9-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="9-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="9-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="9" class="one-btn" id="9-3" value="9-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="10">
+              <template #title>10. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="10-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="10-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="10" class="one-btn" id="10-1" value="10-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="10-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="10-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="10" class="one-btn" id="10-2" value="10-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="10-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="10-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" name="10" class="one-btn" id="10-3" value="10-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+
+            <el-sub-menu class="submenu" index="11">
+              <template #title>11. Lorem ipsum dolor sit amet</template>
+              <el-menu-item index="11-1">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="11-1" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio"
+                  name="11" class="one-btn" id="11-1" value="11-1" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="11-2">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="11-2" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" 
+                  name="11" class="one-btn" id="11-2" value="11-2" />
+                </div>
+              </el-menu-item>
+              <el-menu-item index="11-3">
+                <div class="sub-items">
+                  <img class="item" src="/icons/items.png" />
+
+                  <label for="11-3" class="sub-txt"
+                    >Lorem ipsum dolor sit amet, consect</label
+                  >
+
+                  <input type="radio" 
+                  name="11" class="one-btn" id="11-3" value="11-3" />
+                </div>
+              </el-menu-item>
+            </el-sub-menu>
+
+            <div class="border-line"></div>
+          </el-menu>
+        </div>
+
+       
+      
     </div>
   </div>
   <FooterComponent />
@@ -562,12 +593,11 @@ const checked3 = ref(false);
 const checked4 = ref(false);
 const checked5 = ref(false);
 
-const isActive = ref(false)
+const isActive = ref(false);
 
 const toggleActive = () => {
-  isActive.value =!isActive.value
-}
-
+  isActive.value = !isActive.value;
+};
 </script>
 
 <style scoped>
@@ -616,27 +646,69 @@ h2 {
 }
 
 .btns-group {
-  margin-left: 173px;
+  width: 795px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 206px;
   margin-top: 46px;
 }
 
+.btns {
+  width: 235px;
+  height: 70px;
+  background-color: rgba(76, 88, 18, 1);
+  border-color: rgba(76, 88, 18, 1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-txt {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  color: rgba(228, 235, 188, 1);
+}
+
+.el-button:hover {
+  background-color: rgb(126, 144, 29);
+}
+
+.left-txt{
+width: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 132px;
+}
+
+.ft-box {
+  width: 574px;
+  height: 320px;
+  border-bottom: 1px solid rgba(168, 192, 39, 1);
+  border-top: 1px solid rgba(168, 192, 39, 1);
+  margin-top: 140px;
+
+}
+
 #first-txt {
-  width: 607px;
+  width: 575px;
   height: 219px;
   font-size: 24px;
   font-weight: 400;
   line-height: 29.05px;
-  margin-top: 336.5px;
-  margin-left: 132px;
+  margin-top: 43px;
+  margin-bottom: 58px;
   color: rgba(0, 0, 0, 1);
 }
 
 .menu-container {
   width: 994px;
   height: 1407px;
-
   margin-left: 116px;
-  margin-top: 139px;
+  margin-top: -150px;
   justify-content: space-between;
 }
 
@@ -652,6 +724,11 @@ h2 {
   align-items: center;
 }
 
+
+.play-btn{
+background-color: rgba(0, 0, 0,1);
+}
+
 #first-h3 {
   font-size: 32px;
   font-weight: 600;
@@ -662,13 +739,6 @@ h2 {
   font-size: 32px;
   font-weight: 600;
   line-height: 38.73px;
-}
-
-.play-btn {
-  width: 46px;
-  height: 46px;
-  background-color: rgba(76, 86, 18, 1);
-  margin-right: none !important;
 }
 
 .border-line {
@@ -708,98 +778,16 @@ h2 {
   color: rgba(0, 0, 0, 1);
 }
 
-.sec-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/*
-.box {
-    width: 535px;
-    height: 681px;
-    background-color: white;
-    margin-right: 162px;
-    border: 2px solid black;
-    align-items: center;
-    box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.border {
-    width: 100%;
-    height: 109px;
-    border: 1px solid rgba(76, 86, 18, 1);
-    margin-top: 409px;
-    background-color: rgba(76, 86, 18, 1);
-    display: flex;
-    align-items: center;
-}
-
-.p-now {
-    width: 220px;
-    height: 68px;
-    margin-left: 153px;
-    padding: none !important;
-    border-color: rgba(228, 235, 188, 1);
-    background-color: rgba(228, 235, 188, 1);
-    color: rgba(76, 86, 18, 1);
-}
 
 
-
-#pn-text {
-    height: 29px;
-    width: 166px;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29.05px;
-
-}
-
-.check-box {
-    display: flex;
-
-    justify-content: space-between;
-
-}
-
-.el-checkbox {
-    font-size: 24px;
-    margin-top: 64px;
-    text-align: center;
-    margin-left: 30px;
-    
-}
-
-
-.el-checkbox__input .is-checked {
-    color: rgba(134, 154, 31, 1);
-
-}
-
-
-
-.el.checkbox :deep(span.el-checkbox__label) {
-    font-size: 57px;
-}
-
-.el-checkbox__input.is-checked .el-checkbox__inner {
-    background-color: rgba(134, 154, 31, 1);
-    color: rgba(134, 154, 31, 1);
-}
-
-.divider {
-    border-bottom: 2px solid rgba(76, 86, 18, 1);
-    width: 458px;
-    margin-left: 34px;
-    margin-right: 36px;
-}*/
 
 .box {
   width: 535px;
   height: 681px;
   background-color: white;
+  margin-top: 91px;
   margin-right: 162px;
+  margin-left: 160px;
   border: 2px solid black;
   align-items: center;
   box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.25);
@@ -910,5 +898,14 @@ h2 {
   margin-top: 25px;
 }
 
+button {
+  width: 23px;
+  height: 23px;
+  border-radius: 23px;
+  margin-left: 325px;
+}
 
+.active {
+  background-color: rgba(134, 154, 31, 1);
+}
 </style>

@@ -54,13 +54,32 @@
 
           <p class="p2">$0</p>
 
-          <div class="round-check">
-            <el-checkbox-group v-model="checkList">
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value A" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value B" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-            </el-checkbox-group>
+          <div class="items">
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
           </div>
         </div>
       </el-card>
@@ -71,13 +90,38 @@
 
           <p class="p4">$10</p>
 
-          <div class="round-check">
-            <el-checkbox-group v-model="checkList">
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value A" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value B" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-            </el-checkbox-group>
+           <div class="items">
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
           </div>
         </div>
       </el-card>
@@ -88,13 +132,28 @@
 
           <p class="p6">$99</p>
 
-          <div>
-            <el-checkbox-group v-model="checkList">
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value A" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value B" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-            </el-checkbox-group>
+          <div class="items">
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
           </div>
         </div>
       </el-card>
@@ -105,18 +164,46 @@
 
           <p class="p8">$299</p>
 
-          <div>
-            <el-checkbox-group v-model="checkList">
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value A" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value B" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-              <el-checkbox label="Lorem ipsum dolor sit amet " value="Value C" />
-            </el-checkbox-group>
+          <div class="items">
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="sub-items">
+              <img class="check" src="/icons/check.png" style="margin: 0px" />
+              <p class="lifetime">Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
+          
         </div>
       </el-card>
     </div>
   </div>
+  <FooterComponent/>
 </template>
 
 <script>
@@ -126,6 +213,7 @@ export default {
 </script>
 
 <script setup>
+import FooterComponent from "@/components/Footer.vue"
 import NavbarComponent from "@/components/Navbar.vue";
 import { ref } from "vue";
 
@@ -133,10 +221,10 @@ function handleSelect(val, event) {
   console.log(val);
 }
 
-  const checkList = ref(['Value selected and disabled', 'Value A'])
+const checkList = ref(["Value selected and disabled", "Value A"]);
 </script>
 
-<style scoped>
+<style>
 .ques-box {
   width: 1920px;
   height: 1512px;
@@ -202,6 +290,10 @@ function handleSelect(val, event) {
   line-height: 24.2px;
 }
 
+
+.el-menu :deep(.el-menu-item.is-active){
+  color: red;
+}
 .el-menu-item.is-active {
   border-color: rgba(168, 192, 39, 1);
   color: black;
@@ -232,6 +324,7 @@ function handleSelect(val, event) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .card-options {
@@ -368,8 +461,33 @@ function handleSelect(val, event) {
   justify-content: space-between;
 }
 
-.el-checkbox-group{
+.el-checkbox-group {
   display: flex;
   flex-direction: column;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+  margin-left: 30px;
+}
+.sub-items {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  
+}
+
+.check {
+  height: 25px;
+  width: 25px;
+}
+.lifetime {
+  width: 212px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 25px;
 }
 </style>

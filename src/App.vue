@@ -15,7 +15,10 @@
    <LoginView/>
 <QuestionsView/>
   </header>
-
+  
+<Main>
+  <GetStartedCourses/>
+</Main>
   
     
   
@@ -37,7 +40,7 @@ import NewCoursesView from '@/views/CoursesNew.vue'
 import WebdevView from '@/views/Webdev.vue'
 import LoginView from '@/views/Login.vue'
 import QuestionsView from '@/views/Questions.vue'
-
+import GetStartedCourses from '@/views/GSCourses.vue'
 </script>
 
 
