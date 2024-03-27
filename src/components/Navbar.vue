@@ -12,12 +12,12 @@
         @select="handleSelect"
         :ellipsis="false"
       >
-        <el-menu-item index="1">Home</el-menu-item>
+        <el-menu-item index="1"><RouterLink to="/">Home</RouterLink></el-menu-item>
 
-        <el-menu-item index="2">Courses</el-menu-item>
+        <el-menu-item index="2"><RouterLink to="/courses">Courses</RouterLink></el-menu-item>
 
         <el-sub-menu class="submenu" index="3">
-          <template #title>Questions</template>
+          <template #title><RouterLink to="/questions">Questions</RouterLink></template>
           <el-menu-item index="3-1">item one</el-menu-item>
           <el-menu-item index="3-2">item two</el-menu-item>
           <el-menu-item index="3-3">item three</el-menu-item>
@@ -39,7 +39,7 @@
         style="background-color: transparent; 
         border-color: black; 
         color: black"
-        >Default</el-button
+        ><RouterLink to="/login">Login</RouterLink></el-button
       >
 
       <el-button
@@ -49,7 +49,7 @@
           border: 2px;
           border-color: rgba(168, 192, 39, 1);
         "
-        >Success</el-button
+        >Sign Up</el-button
       >
     </section>
   </div>
@@ -69,7 +69,7 @@ function handleSelect(val, event) {
 }
 </script>
 
-<style scoped>
+<style>
 
 .navbar {
   display: flex;
@@ -134,5 +134,15 @@ function handleSelect(val, event) {
 .el-menu--horizontal >.el-menu-item.is-active {
   border-bottom: 2px solid rgba(168, 192, 39, 1);
   color: rgba(41, 39, 37, 0.9) ;
+}
+
+.el-menu--horizontal>.el-menu-item a{
+background-color: transparent;
+color: black;
+text-decoration: none;
+}
+.el-menu--horizontal>.el-menu-item a:hover{
+  color: red;
+  background-color: blue;
 }
 </style>

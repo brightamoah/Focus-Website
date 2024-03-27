@@ -33,6 +33,7 @@
 
         <!--This is the card you asked us to create-->
         <div class="new-box">
+            <RouterLink to="/web-development">
             <div class="box-card1">
                 <div>
                     <img class="web" src="/icons/web.png" alt="web">
@@ -53,6 +54,7 @@
                 </div>
 
             </div>
+        
 
             <div class="box-card2">
                 <p class="bc2-txt">
@@ -72,8 +74,11 @@
                 </div>
             </div>
 
-        </div>
+        </RouterLink>
 
+
+        </div>
+   
 
 
         <div class="students-say">

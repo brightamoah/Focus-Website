@@ -1,24 +1,7 @@
 
 <template>
-  <header>
-   
-    <NavbarComponent/>
-    <HomePage/>
-    <UserStories/>
-    <ReasonSection/>
-    <LearnMoreSection/>
-    <FooterComponent/>
-    <CoursesView/>
-    
-   <NewCoursesView/>
-   <WebdevView/>
-   <LoginView/>
-<QuestionsView/>
-  </header>
-  
-<Main>
-  <GetStartedCourses/>
-</Main>
+
+
   
     
   

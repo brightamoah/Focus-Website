@@ -224,7 +224,7 @@ function handleSelect(val, event) {
 const checkList = ref(["Value selected and disabled", "Value A"]);
 </script>
 
-<style>
+<style scoped>
 .ques-box {
   width: 1920px;
   height: 1512px;

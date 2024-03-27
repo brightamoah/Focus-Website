@@ -15,7 +15,7 @@
                 <el-menu :default-active="2" class="el-menu-demo1" mode="vertical" @select="handleSelect">
 
                     <el-menu-item-group title="Products">
-                        <el-menu-item index="1">Courses</el-menu-item>
+                        <el-menu-item index="1"><RouterLink to="/courses">Courses</RouterLink></el-menu-item>
                         <el-menu-item index="2">Pricing</el-menu-item>
                         <el-menu-item index="3">Questions</el-menu-item>
                     </el-menu-item-group>
@@ -94,7 +94,7 @@ function handleSelect(val, event) {
 </script>
 
 
-<style>
+<style >
 .footer-container {
     width: 1920px;
     height: 452px;
